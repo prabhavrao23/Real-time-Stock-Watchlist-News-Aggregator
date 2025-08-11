@@ -16,8 +16,8 @@ A full-stack web application designed to track a custom watchlist of stocks and 
 
 ## Tech Stack & APIs
 
--   **Frontend:** HTML5, CSS3, Vanilla JavaScript (or a framework like React/Vue)
--   **Backend:** Flask (Python)
+-   **Frontend:** HTML5, CSS3, Vanilla JavaScript 
+-   **Backend:** C++ Crow
 -   **APIs:**
     -   **[Finnhub API](https://finnhub.io/)** for real-time stock quotes.
     -   **[NewsAPI](https://newsapi.org/)** for financial news.
@@ -45,4 +45,5 @@ This project uses a monorepo structure with a separate directory for the backend
 │   └── package.json          # Frontend dependencies and scripts (if using a bundler)
 │
 ├── .gitignore                # Global ignores (e.g., .env files, OS files)
+
 └── README.md                 # This file
